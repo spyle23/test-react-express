@@ -1,0 +1,16 @@
+OPTIMISATIONS ET BONNES PRATIQUES POUR UN PROJET EN CROISSANCE
+
+1. AMÉLIORER LA MAINTENABILITÉ DE L'API
+- Mise en place d'une architecture modulaire (controllers, services, repositories) pour séparer les responsabilités
+- Documentation automatisée avec Swagger/OpenAPI pour faciliter l'utilisation et la compréhension de l'API
+- Tests unitaires et d'intégration systématiques pour garantir le bon fonctionnement lors des évolutions
+
+2. ASSURER LA SCALABILITÉ DU FRONTEND
+- Implémentation d'une gestion d'état centralisée (Redux, Zustand, etc.) avec une architecture bien définie
+- Adoption du code splitting et lazy loading pour optimiser les performances de chargement
+- Mise en place de composants réutilisables dans une librairie de design system partagée
+
+3. GARANTIR LA SÉCURITÉ GLOBALE DU PROJET
+- Implémentation d'une authentification robuste (OAuth 2.0, JWT) avec gestion fine des permissions
+- Validation rigoureuse des données en entrée côté API (middleware de validation) et frontend
+- Audits de sécurité réguliers et mise en place de protections contre les vulnérabilités courantes (XSS, CSRF, injections SQL) 
